@@ -1,0 +1,49 @@
+body{
+    scroll-behavior: smooth;
+}
+#bg-color {
+    background-color: #1A80FF;
+}
+.navbar-brand img {
+    width: 40px;
+    border-radius: 20px;
+}
+#main-body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 125vh;
+    background: lightblue url("../img/main.webp")center/cover no-repeat; 
+    box-shadow: inset 2px 0 50px #60A6FB;
+}
+.item {
+    width: 800px;
+    height: 40px;
+    margin: 10px auto;
+    padding-top: 30px;
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+  }
+  .left-item {
+    width: 800px;
+    height: 20px;
+    margin: 40px auto;
+    padding-top: 0;
+    text-align: left;
+    color: #FFF;
+    font-size: 2em;
+  }
+  #btn-action {
+    margin: 100px 0 100px 55px; 
+    padding: 0 10px 0 0;
+  }
+  #btn-action a {
+      padding: 20px 40px;
+      font-size: 28px;
+      font-weight: bold;
+      border-radius: 20px;
+      box-shadow: 1px 1px 20px #007bff,
+                -1px -1px 20px #007bff;    
+  }
+  #contact-div {
+      background-color: #60A6FB;
+  }
